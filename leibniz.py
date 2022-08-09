@@ -25,6 +25,9 @@ y_pi = np.array([math.pi, math.pi])
 
 plt.plot(xpoints, ypoints, label="leibniz approximation")
 plt.plot(x_pi, y_pi, label="pi")
+plt.xlabel("Number of Iterations")
 
 plt.show()
 
+
+# gives a graph which shows the leibniz approximation of pi converging towards pi
