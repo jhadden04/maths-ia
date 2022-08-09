@@ -26,6 +26,7 @@ y_pi = np.array([math.pi, math.pi])
 plt.plot(xpoints, ypoints, label="leibniz approximation")
 plt.plot(x_pi, y_pi, label="pi")
 plt.xlabel("Number of Iterations")
+leg = plt.legend(loc='upper center')
 
 plt.show()
 
